@@ -1,0 +1,53 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(/component/images/background.jpg);
+  background-size: 90vh;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-color: #231b17;
+  color: white;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.titre h1 {
+  text-align: center;
+}
+
+.middle-block h2 {
+  font-weight: lighter;
+  font-size: 100px;
+  text-align: center;
+  text-align: start;
+}
+
+.middle-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.middle-block .cap {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.bouton {
+  width: 20%;
+  border-style: solid;
+  border-color: yellow;
+  padding: 10px;
+  text-align: center;
+}
+.bouton a {
+  font-weight: bold;
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+}
+.bouton a:hover {
+  font-size: large;
+}
+
+.carac {
+  padding-bottom: 5px;
+}
